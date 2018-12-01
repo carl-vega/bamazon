@@ -8,9 +8,9 @@ CREATE TABLE products
   id INT NOT NULL
   AUTO_INCREMENT,
   product_name VARCHAR
-  (45) NOT NULL,
+  (255) NOT NULL,
   department_name VARCHAR
-  (45) NOT NULL,
+  (255) NOT NULL,
   price FLOAT NOT NULL,
   stock_quantity INT NOT NULL,
   PRIMARY KEY
